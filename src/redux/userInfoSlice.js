@@ -18,3 +18,5 @@ const userInfoSlice = createSlice({
 
 export const {setName, setEmail} = userInfoSlice.actions;
 export default userInfoSlice.reducer
+
+// comment

@@ -24,7 +24,7 @@ const App = () => {
         <input type="email" placeholder="Enter email" onChange={handleEmailChange}/>
       </div>
     
-      <div style={{marginTop:'30px'}}>
+      <div className="output" style={{marginTop:'30px'}}>
         <h2>Live Display</h2>
         <p>Name - {name}</p>
         <p>Email - {email}</p>
